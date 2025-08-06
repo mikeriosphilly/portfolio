@@ -35,7 +35,16 @@ section {
   max-width: 800px;
   margin: 2rem auto;
   padding: 1rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
 }
+
+section:hover {
+  transform: translateY(-4px);
+}
+
 
 /* Links */
 a {
