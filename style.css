@@ -1,0 +1,56 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  background: #f7f7f7;
+  color: #333;
+  text-align: center;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background: #222;
+  color: white;
+  padding: 2rem 1rem;
+}
+
+/* Headings */
+h1 {
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  margin: 1.5rem 0 1rem;
+}
+
+/* Sections */
+section {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+/* Links */
+a {
+  color: #0077ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  margin-top: 2rem;
+  padding: 1rem;
+  background: #222;
+  color: #aaa;
+}
